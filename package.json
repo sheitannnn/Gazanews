@@ -4,7 +4,13 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Independent Palestine news aggregation website",
-  "keywords": ["palestine", "news", "journalism", "gaza", "middle-east"],
+  "keywords": [
+    "palestine",
+    "news",
+    "journalism",
+    "gaza",
+    "middle-east"
+  ],
   "author": "Palestine News Team",
   "license": "MIT",
   "scripts": {
@@ -20,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@tailwindcss/vite": "^4.1.10",
     "@types/react": "^18.3.17",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
