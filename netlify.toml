@@ -1,0 +1,41 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/articles.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300" # Cache for 5 minutes
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000" # Cache for 1 year
+
+# Enable gzip compression
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Content-Encoding = "gzip"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Content-Encoding = "gzip"
+

@@ -1,0 +1,71 @@
+name: Palestine News Auto-Update
+
+on:
+  schedule:
+    # Run every 30 minutes during peak hours (6 AM - 11 PM GMT)
+    - cron: '*/30 6-23 * * *'
+    # Run every 2 hours during off-peak hours (11 PM - 6 AM GMT)
+    - cron: '0 */2 0-5 * * *'
+  workflow_dispatch: # Allow manual triggering
+  push:
+    branches: [ main ]
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install Python dependencies
+      run: |
+        pip install requests beautifulsoup4 feedparser
+        
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: package-lock.json
+        
+    - name: Install Node.js dependencies
+      run: npm ci
+      
+    - name: Run news scraper
+      run: |
+        python scraper.py
+        cp articles.json public/articles.json
+        
+    - name: Build React app
+      run: npm run build
+      
+    - name: Deploy to Netlify
+      uses: nwtgck/actions-netlify@v3.0
+      with:
+        publish-dir: './dist'
+        production-branch: main
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        deploy-message: "Auto-deploy: Updated news articles $(date)"
+        enable-pull-request-comment: false
+        enable-commit-comment: true
+        overwrites-pull-request-comment: true
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        
+    - name: Commit updated articles
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add articles.json public/articles.json
+        git diff --staged --quiet || git commit -m "Auto-update: Latest news articles $(date)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

@@ -1,0 +1,276 @@
+{
+  "articles": [
+    {
+      "id": "d8038736a4ddd86e7441759bb075c663",
+      "title": "Is the 12-day Israel-Iran war really over – and who gained what?",
+      "summary": "A Trump-brokered ceasefire is in place for now. But what really happened – and did any side emerge stronger?",
+      "url": "https://www.aljazeera.com/news/2025/6/24/is-the-12-day-israel-iran-war-really-over-and-who-gained",
+      "source": "Al Jazeera",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:50.183670+00:00",
+      "scrapedAt": "2025-06-25T05:18:50.183716+00:00",
+      "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2025/06/AFP__20250622__63AL4WT__v2__HighRes__TopshotComboUsIranIsraelConflictTrump-1750569369.jpg?resize=270%2C180&quality=80",
+      "tags": [
+        "Gaza",
+        "Palestine",
+        "Middle East"
+      ],
+      "category": "News",
+      "priority": 4
+    },
+    {
+      "id": "10fdf654b305ec0fdb73896fd8cd3b02",
+      "title": "Israeli forces raze Palestinian-owned agricultural land near Ramallah",
+      "summary": "Israeli forces raze Palestinian-owned agricultural land near Ramallah",
+      "url": "https://english.wafa.ps/Pages/Details/158698",
+      "source": "WAFA",
+      "author": "",
+      "publishedAt": "2025-06-25T05:19:04.611662+00:00",
+      "scrapedAt": "2025-06-25T05:19:04.611682+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "Official",
+        "Government"
+      ],
+      "category": "News",
+      "priority": 3
+    },
+    {
+      "id": "83211cfee28cfa391ab10d76eab98c15",
+      "title": "UN: “Gaza: Over 400 Palestinians Killed Around Private Aid Hubs”",
+      "summary": "UN: “Gaza: Over 400 Palestinians Killed Around Private Aid Hubs”",
+      "url": "https://imemc.org/article/un-gaza-over-400-palestinians-killed-around-private-aid-hubs/",
+      "source": "IMEMC News",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:58.992550+00:00",
+      "scrapedAt": "2025-06-25T05:18:58.992554+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "West Bank",
+        "Gaza"
+      ],
+      "category": "News",
+      "priority": 3
+    },
+    {
+      "id": "eaf14c29ec271abd0a457ba64d0a463d",
+      "title": "Gaza’s Hidden Toll Emerges In Harvard-Linked, UN-Backed Reports",
+      "summary": "Gaza’s Hidden Toll Emerges In Harvard-Linked, UN-Backed Reports",
+      "url": "https://imemc.org/article/gazas-hidden-toll-emerges-in-harvard-linked-un-backed-reports/",
+      "source": "IMEMC News",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:58.992441+00:00",
+      "scrapedAt": "2025-06-25T05:18:58.992444+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "West Bank",
+        "Gaza"
+      ],
+      "category": "News",
+      "priority": 3
+    },
+    {
+      "id": "a8de03f7ecfc0856e112d4592b64ad02",
+      "title": "Israeli Forces Kill an Elderly Woman Near Jerusalem",
+      "summary": "Israeli Forces Kill an Elderly Woman Near Jerusalem",
+      "url": "https://imemc.org/article/israeli-forces-kill-an-elderly-woman-near-jerusalem/",
+      "source": "IMEMC News",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:58.992317+00:00",
+      "scrapedAt": "2025-06-25T05:18:58.992321+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "West Bank",
+        "Gaza"
+      ],
+      "category": "News",
+      "priority": 3
+    },
+    {
+      "id": "73267965a24532b79743315e0393f451",
+      "title": "Israeli Forces Kill a Palestinian Child Near Ramallah",
+      "summary": "Israeli Forces Kill a Palestinian Child Near Ramallah",
+      "url": "https://imemc.org/article/israeli-forces-kill-a-palestinian-child-near-ramallah-2/",
+      "source": "IMEMC News",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:58.992192+00:00",
+      "scrapedAt": "2025-06-25T05:18:58.992196+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "West Bank",
+        "Gaza"
+      ],
+      "category": "News",
+      "priority": 3
+    },
+    {
+      "id": "e4ae4a4d2f7630fa03acb891fa690b6c",
+      "title": "Tuesday in Gaza: 24 Killed by Israeli Forces Before Dawn",
+      "summary": "Tuesday in Gaza: 24 Killed by Israeli Forces Before Dawn",
+      "url": "https://imemc.org/article/tuesday-in-gaza-24-killed-by-israeli-forces-before-dawn/",
+      "source": "IMEMC News",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:58.992063+00:00",
+      "scrapedAt": "2025-06-25T05:18:58.992066+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "West Bank",
+        "Gaza"
+      ],
+      "category": "News",
+      "priority": 3
+    },
+    {
+      "id": "f0e3b5a00e400b3a3138f3b4fd39aa4e",
+      "title": "Latest Post",
+      "summary": "Latest Post",
+      "url": "https://imemc.org/article/israeli-forces-kill-an-elderly-woman-near-jerusalem/",
+      "source": "IMEMC News",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:58.991429+00:00",
+      "scrapedAt": "2025-06-25T05:18:58.991448+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "West Bank",
+        "Gaza"
+      ],
+      "category": "News",
+      "priority": 3
+    },
+    {
+      "id": "87d830b158c8abb0abb8592820f0234b",
+      "title": "Bibi's Iran gambit aimed to realign the world behind Israel. It may backfire",
+      "summary": "Bibi's Iran gambit aimed to realign the world behind Israel. It may backfire",
+      "url": "https://www.972mag.com/iran-israel-war-ori-goldberg/",
+      "source": "+972 Magazine",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:54.670347+00:00",
+      "scrapedAt": "2025-06-25T05:18:54.670352+00:00",
+      "imageUrl": "https://static.972mag.com/www/uploads/2025/06/F250616AVS13-1200x802.jpg",
+      "tags": [
+        "Palestine",
+        "Israel",
+        "Human Rights"
+      ],
+      "category": "Analysis",
+      "priority": 3
+    },
+    {
+      "id": "6799d8eaf8fca42385e9821ad966228d",
+      "title": "With Iran war as pretext, Israel suffocates the West Bank",
+      "summary": "With Iran war as pretext, Israel suffocates the West Bank",
+      "url": "https://www.972mag.com/west-bank-lockdown-israel-iran/",
+      "source": "+972 Magazine",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:54.670145+00:00",
+      "scrapedAt": "2025-06-25T05:18:54.670149+00:00",
+      "imageUrl": "https://static.972mag.com/www/uploads/2025/06/main_image57873_FnleJa8pat-600x400.jpg",
+      "tags": [
+        "Palestine",
+        "Israel",
+        "Human Rights"
+      ],
+      "category": "Analysis",
+      "priority": 3
+    },
+    {
+      "id": "56cf6deab83f1f98ea924721688b72b1",
+      "title": "Why everything Israelis think they know about Iran is wrong",
+      "summary": "Why everything Israelis think they know about Iran is wrong",
+      "url": "https://www.972mag.com/why-everything-israelis-think-they-know-about-iran-is-wrong/",
+      "source": "+972 Magazine",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:54.669942+00:00",
+      "scrapedAt": "2025-06-25T05:18:54.669961+00:00",
+      "imageUrl": "https://static.972mag.com/www/uploads/2025/06/F221029TN50-600x400.jpg",
+      "tags": [
+        "Palestine",
+        "Israel",
+        "Human Rights"
+      ],
+      "category": "Analysis",
+      "priority": 3
+    },
+    {
+      "id": "6fe7f4103825fa708b48aa198f821b5c",
+      "title": "‘The Hunger Games’: Inside Israel’s aid death traps for starving Gazans",
+      "summary": "‘The Hunger Games’: Inside Israel’s aid death traps for starving Gazans",
+      "url": "https://www.972mag.com/hunger-games-israel-gaza-food-aid/",
+      "source": "+972 Magazine",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:54.649870+00:00",
+      "scrapedAt": "2025-06-25T05:18:54.649874+00:00",
+      "imageUrl": "https://static.972mag.com/www/uploads/2025/06/001_image00009-600x400.jpg",
+      "tags": [
+        "Palestine",
+        "Israel",
+        "Human Rights"
+      ],
+      "category": "Analysis",
+      "priority": 3
+    },
+    {
+      "id": "6508f4fd04ce5058c61e0d24be693587",
+      "title": "12 days that brought the war home to Israelis",
+      "summary": "12 days that brought the war home to Israelis",
+      "url": "https://www.972mag.com/iran-missiles-israelis-fear-immunity/",
+      "source": "+972 Magazine",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:54.649609+00:00",
+      "scrapedAt": "2025-06-25T05:18:54.649628+00:00",
+      "imageUrl": "https://static.972mag.com/www/uploads/2025/06/IMG_9605-1200x802.jpeg",
+      "tags": [
+        "Palestine",
+        "Israel",
+        "Human Rights"
+      ],
+      "category": "Analysis",
+      "priority": 3
+    },
+    {
+      "id": "37f1d6fe8eb80fc59b0956dd2e65d22e",
+      "title": "Trump to press Israel for 'peace' in head-spinning shift after Iran's attack",
+      "summary": "Trump to press Israel for 'peace' in head-spinning shift after Iran's attack",
+      "url": "https://www.middleeasteye.net/news/trump-says-he-will-press-israel-peace-head-spinning-hours-after-irans-attack",
+      "source": "Middle East Eye",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:52.315618+00:00",
+      "scrapedAt": "2025-06-25T05:18:52.315622+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "Middle East",
+        "Analysis"
+      ],
+      "category": "News",
+      "priority": 3
+    },
+    {
+      "id": "55e124408cc119c8e98f9c4f23588727",
+      "title": "Trump says Israel and Iran 'don't know what the fuck they're doing'",
+      "summary": "Trump says Israel and Iran 'don't know what the fuck they're doing'",
+      "url": "https://www.middleeasteye.net/news/trump-says-israel-and-iran-dont-know-what-fuck-theyre-doing",
+      "source": "Middle East Eye",
+      "author": "",
+      "publishedAt": "2025-06-25T05:18:52.315466+00:00",
+      "scrapedAt": "2025-06-25T05:18:52.315485+00:00",
+      "imageUrl": "",
+      "tags": [
+        "Palestine",
+        "Middle East",
+        "Analysis"
+      ],
+      "category": "News",
+      "priority": 3
+    }
+  ],
+  "lastUpdated": "2025-06-25T05:19:06.612488+00:00",
+  "totalArticles": 15
+}

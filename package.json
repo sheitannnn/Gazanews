@@ -1,0 +1,51 @@
+{
+  "name": "palestine-news",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Independent Palestine news aggregation website",
+  "keywords": ["palestine", "news", "journalism", "gaza", "middle-east"],
+  "author": "Palestine News Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "scrape": "python3 scraper.py && cp articles.json public/articles.json"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "lucide-react": "^0.468.0",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.5.7",
+    "tw-animate-css": "^1.0.1",
+    "vite": "^6.0.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/palestine-news.git"
+  },
+  "homepage": "https://palestine-news.netlify.app",
+  "bugs": {
+    "url": "https://github.com/your-username/palestine-news/issues"
+  }
+}
+
