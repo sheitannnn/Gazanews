@@ -27,3 +27,13 @@
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000" # Cache for 1 year
+# Enable gzip compression
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Content-Encoding = "gzip"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Content-Encoding = "gzip"
